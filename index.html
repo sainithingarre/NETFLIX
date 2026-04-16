@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix</title>
+  <title>Netflix India</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body class="background-image">
+<body>
   <header>
     <nav class="nav-bar">
       <img src="./Assets/logo.png" alt="logo" class="nav-image">
@@ -37,6 +38,7 @@
         <button>Get Started ></button>
       </div>
     </section>
+    <div></div>
   </header>
 
   <section class="trending">
@@ -63,30 +65,38 @@
   <section class="reasons">
     <h2>More Reasons to Join</h2>
 
-    <div class="reasons-container">
+    <div class="row g-4 reasons-container">
 
-      <div class="reason-card">
-        <h3>Enjoy on your TV</h3>
-        <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV and more.</p>
-        <i class="fa-solid fa-tv"></i>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex col-gap-3">
+        <div class="reason-card w-100">
+          <h3>Enjoy on your TV</h3>
+          <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV and more.</p>
+          <i class="fa-solid fa-tv"></i>
+        </div>
       </div>
 
-      <div class="reason-card">
-        <h3>Download your shows</h3>
-        <p>Save your favourites easily and always have something to watch.</p>
-        <i class="fa-solid fa-download"></i>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex col-gap-3">
+        <div class="reason-card w-100">
+          <h3>Download your shows</h3>
+          <p>Save your favourites easily and always have something to watch.</p>
+          <i class="fa-solid fa-download"></i>
+        </div>
       </div>
 
-      <div class="reason-card">
-        <h3>Watch everywhere</h3>
-        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
-        <i class="fa-solid fa-binoculars"></i>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex col-gap-3">
+        <div class="reason-card w-100">
+          <h3>Watch everywhere</h3>
+          <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+          <i class="fa-solid fa-binoculars"></i>
+        </div>
       </div>
 
-      <div class="reason-card">
-        <h3>Create profiles for kids</h3>
-        <p>Send kids on adventures with their favourite characters in a space made just for them.</p>
-        <i class="fa-solid fa-address-book"></i>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex col-gap-3">
+        <div class="reason-card w-100">
+          <h3>Create profiles for kids</h3>
+          <p>Send kids on adventures with their favourite characters in a space made just for them.</p>
+          <i class="fa-solid fa-address-book"></i>
+        </div>
       </div>
 
     </div>
@@ -191,6 +201,10 @@
     <h6 class="footer-country">Netflix India</h6>
   </section>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/f2e7134756.js" crossorigin="anonymous"></script>
 
 </body>
